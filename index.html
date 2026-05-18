@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visionary Spaces | Interior & Exterior Design</title>
+    <meta name="description"
+        content="Premium Interior and Exterior Design firm crafting world-class luxury architecture and spaces.">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- Phosphor Icons for premium minimal icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="./logo.jpeg" alt="Company Logo" class="logo-img">
+            </a>
+            <div class="nav-links">
+                <a href="#interior" class="nav-link hover-link">Interior</a>
+                <a href="#exterior" class="nav-link hover-link">Exterior</a>
+                <a href="#projects" class="nav-link hover-link">Projects</a>
+                <a href="#about" class="nav-link hover-link">About</a>
+            </div>
+            <div class="nav-actions">
+                <a href="tel:9761626188" class="btn btn-outline hover-link"><i class="ph ph-phone"></i> 9761626188, 8448714537</a>
+                <a href="#contact" class="btn btn-primary hover-link">Get in Touch</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-slider" id="hero-slider">
+            <div class="slide active">
+                <img src="./img-12.jpg" alt="Luxury Home Exterior">
+            </div>
+            <div class="slide">
+                <img src="./img-2.jpg" alt="Modern Kitchen Interior">
+            </div>
+            <div class="slide">
+                <img src="./img-15.jpg" alt="Architectural Design">
+            </div>
+            <div class="slide video-slide">
+                <video src="./hero-bg.mp4" autoplay loop muted playsinline></video>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title reveal-text">Redefining Space & Form</h1>
+            <p class="hero-subtitle reveal-text-delay">World-class luxury architecture and interior design tailored for
+                visionary living.</p>
+            <div class="hero-cta reveal-text-delay-2">
+                <a href="#projects" class="btn btn-primary btn-large hover-link">View Projects</a>
+                <a href="tel:9761626188" class="btn btn-glass btn-large hover-link"><i class="ph ph-phone-call"></i>
+                    9761626188, 8448714537</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- Interior Section -->
+    <section class="interior-section section-padding" id="interior">
+        <div class="container">
+            <div class="section-header split-layout">
+                <h2 class="section-title fade-in-up">Refined Interiors</h2>
+                <p class="section-desc fade-in-up">Warm, modern, and uncompromisingly luxurious. We craft interiors that
+                    balance aesthetic brilliance with intimate comfort.</p>
+            </div>
+            <div class="interior-gallery fade-in-up">
+                <div class="interior-card large">
+                    <img src="./img-17.jpg" alt="Luxury Ceiling" loading="lazy">
+                    <div class="card-content">
+                        <h3>Living Spaces</h3>
+                        <p>Immersive warmth & lighting</p>
+                    </div>
+                </div>
+                <div class="interior-card">
+                    <img src="./img-4.jpg" alt="Modern Kitchen" loading="lazy">
+                    <div class="card-content">
+                        <h3>Culinary Mastery</h3>
+                        <p>Minimalist bespoke kitchens</p>
+                    </div>
+                </div>
+                <div class="interior-card">
+                    <img src="./img-13.jpg" alt="Bedroom Design" loading="lazy">
+                    <div class="card-content">
+                        <h3>Personal Sanctuaries</h3>
+                        <p>Textured tranquility</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Exterior Section -->
+    <section class="exterior-section section-padding dark-mode" id="exterior">
+        <div class="container">
+            <div class="exterior-wrapper">
+                <div class="exterior-content fade-in-up">
+                    <h2 class="section-title">Futuristic Architecture</h2>
+                    <p class="section-desc">Bold forms, stark contrasts, and striking elevations. Our exterior designs
+                        make a statement of enduring power and modern elegance.</p>
+                    <ul class="feature-list">
+                        <li><i class="ph ph-check-circle"></i> Striking Elevations</li>
+                        <li><i class="ph ph-check-circle"></i> Sustainable Materials</li>
+                        <li><i class="ph ph-check-circle"></i> Structural Integrity</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline-light hover-link mt-4">Consult With Us</a>
+                </div>
+                <div class="exterior-visuals">
+                    <div class="img-wrapper main-img parallax-img">
+                        <img src="./img-10.jpg" alt="Dark Architectural Exterior"
+                            loading="lazy">
+                    </div>
+                    <div class="img-wrapper floating-img fade-in-up">
+                        <img src="./img-14.jpg" alt="Exterior Details"
+                            loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Showcase -->
+    <section class="projects-section section-padding" id="projects">
+        <div class="container">
+            <h2 class="section-title text-center fade-in-up">Selected Works</h2>
+
+            <div class="masonry-grid" id="lightgallery">
+                <a href="./img-9.jpg" class="grid-item item-tall fade-in-up hover-link">
+                    <img src="./img-9.jpg" alt="Project 1" loading="lazy">
+                    <div class="item-overlay"><span>House Project</span></div>
+                </a>
+                <a href="./img-8.jpg" class="grid-item item-wide fade-in-up hover-link">
+                    <img src="./img-8.jpg" alt="Project 2" loading="lazy">
+                    <div class="item-overlay"><span>Kitchen Design</span></div>
+                </a>
+                <a href="./img-19.jpg" class="grid-item fade-in-up hover-link">
+                    <img src="./img-19.jpg" alt="Project 3" loading="lazy">
+                    <div class="item-overlay"><span>Ceiling Art</span></div>
+                </a>
+                <a href="./img-6.jpg"
+                    class="grid-item item-large fade-in-up hover-link">
+                    <img src="./img-6.jpg" alt="Project 4" loading="lazy">
+                    <div class="item-overlay"><span>Architecture</span></div>
+                </a>
+                <a href="./img-1.jpg" class="grid-item fade-in-up hover-link">
+                    <img src="./img-1.jpg" alt="Project 5" loading="lazy">
+                    <div class="item-overlay"><span>Villa Design</span></div>
+                </a>
+                <a href="./img-3.jpg" class="grid-item fade-in-up hover-link">
+                    <img src="./img-3.jpg" alt="Project 6" loading="lazy">
+                    <div class="item-overlay"><span>Modern Kitchen</span></div>
+                </a>
+                <!-- New Items to max out visuals -->
+                <a href="./img-16.jpg" class="grid-item fade-in-up hover-link">
+                    <img src="./img-16.jpg" alt="Project 7" loading="lazy">
+                    <div class="item-overlay"><span>Modern Blueprint</span></div>
+                </a>
+                <a href="./img-11.jpg" class="grid-item item-tall fade-in-up hover-link">
+                    <img src="./img-11.jpg" alt="Project 8" loading="lazy">
+                    <div class="item-overlay"><span>Estate Exterior</span></div>
+                </a>
+                <a href="./img-18.jpg" class="grid-item fade-in-up hover-link">
+                    <img src="./img-18.jpg" alt="Project 9" loading="lazy">
+                    <div class="item-overlay"><span>Intricate Ceiling</span></div>
+                </a>
+                <a href="./img-7.jpg" class="grid-item item-wide fade-in-up hover-link">
+                    <img src="./img-7.jpg" alt="Project 10" loading="lazy">
+                    <div class="item-overlay"><span>Classic Kitchen</span></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- More Projects Slider -->
+    <section class="more-projects-slider section-padding dark-mode" id="more-projects">
+        <div class="container">
+            <h2 class="section-title text-center fade-in-up" style="margin-bottom: 3rem;">More From Our Portfolio</h2>
+            <div class="marquee-wrapper">
+                <div class="marquee-track">
+                    <div class="marquee-slide"><img src="./work-img-1.jpg" alt="More Work 1" loading="lazy"></div>
+                    <div class="marquee-slide"><img src="./work-img-2.jpg" alt="More Work 2" loading="lazy"></div>
+                    <div class="marquee-slide"><img src="./work-img-3.jpg" alt="More Work 3" loading="lazy"></div>
+                    <div class="marquee-slide"><img src="./work-img-4.jpg" alt="More Work 4" loading="lazy"></div>
+                    <div class="marquee-slide"><img src="./work-img-5.jpg" alt="More Work 5" loading="lazy"></div>
+                    <div class="marquee-slide"><img src="./work-img-6.jpg" alt="More Work 6" loading="lazy"></div>
+                    <div class="marquee-slide"><img src="./work-img-7.jpg" alt="More Work 7" loading="lazy"></div>
+                    <div class="marquee-slide"><img src="./work-img-8.jpg" alt="More Work 8" loading="lazy"></div>
+                    <div class="marquee-slide"><img src="./work-img-9.jpg" alt="More Work 9" loading="lazy"></div>
+                    <div class="marquee-slide"><img src="./work-img-10.jpg" alt="More Work 10" loading="lazy"></div>
+                    <!-- Duplicate for seamless scroll -->
+                    <div class="marquee-slide"><img src="./work-img-1.jpg" alt="More Work 1" loading="lazy"></div>
+                    <div class="marquee-slide"><img src="./work-img-2.jpg" alt="More Work 2" loading="lazy"></div>
+                    <div class="marquee-slide"><img src="./work-img-3.jpg" alt="More Work 3" loading="lazy"></div>
+                    <div class="marquee-slide"><img src="./work-img-4.jpg" alt="More Work 4" loading="lazy"></div>
+                    <div class="marquee-slide"><img src="./work-img-5.jpg" alt="More Work 5" loading="lazy"></div>
+                    <div class="marquee-slide"><img src="./work-img-6.jpg" alt="More Work 6" loading="lazy"></div>
+                    <div class="marquee-slide"><img src="./work-img-7.jpg" alt="More Work 7" loading="lazy"></div>
+                    <div class="marquee-slide"><img src="./work-img-8.jpg" alt="More Work 8" loading="lazy"></div>
+                    <div class="marquee-slide"><img src="./work-img-9.jpg" alt="More Work 9" loading="lazy"></div>
+                    <div class="marquee-slide"><img src="./work-img-10.jpg" alt="More Work 10" loading="lazy"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section section-padding" id="services">
+        <div class="container">
+            <h2 class="section-title text-center fade-in-up" style="margin-bottom: 3rem;">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card fade-in-up">
+                    <i class="ph ph-wrench service-icon"></i>
+                    <h3>Basic & Common Repairs</h3>
+                    <p>On-site repair services including skilled labor, tools, and materials to ensure a smooth foundation with zero hassle.</p>
+                </div>
+                <div class="service-card fade-in-up delay-1">
+                    <i class="ph ph-car service-icon"></i>
+                    <h3>Vehicle Repairs & Services</h3>
+                    <p>24/7 technical support and timely maintenance for your construction vehicles to keep operations running smoothly.</p>
+                </div>
+                <div class="service-card fade-in-up delay-2">
+                    <i class="ph ph-shield-check service-icon"></i>
+                    <h3>Preventive Maintenance</h3>
+                    <p>Routine inspections and scheduled check-ups to fix issues early and prevent unnecessary breakdown costs.</p>
+                </div>
+            </div>
+
+            <h2 class="section-title text-center fade-in-up" style="margin-top: 5rem; margin-bottom: 3rem;">Our Solutions</h2>
+            <div class="services-grid">
+                <div class="service-card fade-in-up">
+                    <i class="ph ph-blueprint service-icon"></i>
+                    <h3>Building Drawings</h3>
+                    <p>High-quality, precise, and detailed building drawing services for both residential and commercial projects.</p>
+                </div>
+                <div class="service-card fade-in-up delay-1">
+                    <i class="ph ph-buildings service-icon"></i>
+                    <h3>Building Construction</h3>
+                    <p>Reliable, turnkey construction services for mega-projects, managing everything from manpower to materials under one roof.</p>
+                </div>
+                <div class="service-card fade-in-up delay-2">
+                    <i class="ph ph-cpu service-icon"></i>
+                    <h3>Advanced Tools</h3>
+                    <p>Cutting-edge hardware and software solutions optimized to streamline and accelerate your construction process.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section section-padding" id="about">
+        <div class="container split-layout align-center">
+            <div class="about-content fade-in-up">
+                <h2 class="section-title">About Us</h2>
+                <p class="section-desc">Based in Greater Noida, FRIEND GROUP OF INDUSTRIES & CLEANTEK (FGIC) is a leading construction and design firm. We offer end-to-end solutions, spanning pre-development, structural advancement, interior design, quality control, and general structural repairs. At FGIC, we combine industry expertise with excellence to deliver top-tier development management.</p>
+                <h3 class="section-title" style="font-size: 1.5rem; margin-top: 2rem;">Our History</h3>
+                <p class="section-desc">Founded in 2019 by Mr. Praveen, FGIC has rapidly evolved into a trusted leader in Delhi NCR’s residential and commercial real estate. Built on innovation, immaculate planning, and absolute transparency, we turn visions into landmark realities while ensuring maximum value for our customers.</p>
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="150">0</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="12">0</span>
+                        <span class="stat-label">Years Exp</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="35">0</span>
+                        <span class="stat-label">Awards</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image fade-in-up">
+                <img src="./img-5.jpg" alt="About Us" loading="lazy"
+                    class="rounded-img shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section section-padding dark-mode" id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info fade-in-up">
+                    <h2 class="section-title">Start a Project</h2>
+                    <p class="section-desc">Ready to transform your space? Get in touch with our expert design team
+                        today.</p>
+
+                    <div class="contact-methods mt-5">
+                        <a href="tel:9761626188" class="contact-card hover-link">
+                            <div class="icon-circle"><i class="ph ph-phone"></i></div>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p>9761626188, 8448714537</p>
+                            </div>
+                        </a>
+                        <a href="https://wa.me/918448714537" class="contact-card hover-link" target="_blank">
+                            <div class="icon-circle whatsapp"><i class="ph ph-whatsapp-logo"></i></div>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <p>Chat with us</p>
+                            </div>
+                        </a>
+                        <a href="mailto:friendgroupindcleantek@gmail.com" class="contact-card hover-link">
+                            <div class="icon-circle"><i class="ph ph-envelope-simple"></i></div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>friendgroupindcleantek@gmail.com</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-container fade-in-up delay-1">
+                    <form class="glass-form" id="contactForm">
+                        <h3>Send a Message</h3>
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder=" " required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder=" " required>
+                            <label for="email">Email Address</label>
+                        </div>
+                        <div class="form-group">
+                            <select id="interest" required>
+                                <option value="" disabled selected>Service of Interest</option>
+                                <option value="interior">Interior Design</option>
+                                <option value="exterior">Exterior Architecture</option>
+                                <option value="both">Full Project</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="4" placeholder=" " required></textarea>
+                            <label for="message">Project Details</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full hover-link">Submit Request <i
+                                class="ph ph-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer dark-mode">
+        <div class="container text-center">
+            <img src="./logo.jpeg" alt="Logo" class="footer-logo">
+            <p>&copy; 2026 Visionary Design Firm. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="close-lightbox hover-link">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
